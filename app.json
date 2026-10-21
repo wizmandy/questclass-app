@@ -2,6 +2,7 @@
   "expo": {
     "name": "QuestClass",
     "slug": "questclass",
+    "scheme": "questclass",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -20,6 +21,7 @@
       "predictiveBackGestureEnabled": false
     },
     "web": {
+      "bundler": "metro",
       "favicon": "./assets/favicon.png"
     },
     "plugins": [
@@ -28,13 +30,8 @@
       "expo-router",
       "expo-status-bar"
     ],
-    "scheme": "questclass",
-    "expriments": {
+    "experiments": {
       "typedRoutes": true
-    },
-    "web": {
-      "favicon": "./assets/favicon.png",
-      "bundler": "metro"
     }
   }
 }

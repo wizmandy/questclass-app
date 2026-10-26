@@ -15,11 +15,8 @@ export function JourneyScreen() {
   const featuredQuest = quests[1];
 
   function handleMenuSelect(section: MenuSection) {
-    if (section === "Jornada") {
-      showMessage(
-        "Jornada",
-        "Você está na sua jornada! Confira a missão em destaque e o progresso da turma.",
-      );
+    if (section === "Missões") {
+      router.push("/missoes");
       return;
     }
 
